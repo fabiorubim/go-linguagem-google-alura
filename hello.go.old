@@ -52,4 +52,14 @@ func main() {
 	default:
 		fmt.Println("Não conheço este comando!")
 	}
+
+	nome, idade := devolveNomeEIdade()
+	fmt.Println(nome, "e tenho ", idade, "anos")
+}
+
+//Funão que retorna mais de um valor. O underline serve para desconsiderar o um dos retornos.
+func devolveNomeEIdade() (string, int) {
+	nome := "Fabio"
+	idade := 35
+	return nome, idade
 }
