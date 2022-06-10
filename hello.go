@@ -30,4 +30,26 @@ func main() {
 	fmt.Scan(&comando) //Se colcoar algo diferente de um número inteiro, comando irá valer zero, que é seu valor padrão....ou seja, scan irá descatar o valor.
 	fmt.Println("O comando escolhido foi:", comando)
 	fmt.Println("Endereço da variável/ponteiro comando é:", &comando)
+
+	// if comando == 1 {
+	// 	fmt.Println("Monitorando...")
+	// } else if comando == 2 {
+	// 	fmt.Println("Exibindo Logs")
+	// } else if comando == 0 {
+	// 	fmt.Println("Saindo do programa...")
+	// } else {
+	// 	fmt.Println("Não conheço este comando!")
+	// }
+
+	switch comando {
+	case 1:
+		fmt.Println("Monitorando...")
+		//break não é obrigatório, Go vai parar aqui mesmo se não houver break
+	case 2:
+		fmt.Println("Exibindo Logs")
+	case 0:
+		fmt.Println("Saindo do programa...")
+	default:
+		fmt.Println("Não conheço este comando!")
+	}
 }
