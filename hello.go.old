@@ -63,3 +63,23 @@ func devolveNomeEIdade() (string, int) {
 	idade := 35
 	return nome, idade
 }
+
+func exibeNomesSlice() {
+	//Slices infere o tamanho a partir da quantidade de itens atribuídos a ele.
+	//Todo Slice é um array
+	nomes := []string{"Fabio", "Marina", "Bernado"}
+	fmt.Println(nomes)
+	fmt.Println("Slice tipo: ", reflect.typeof(nomes)) //Mostra um array vazio, mesmo com os itens iniciados.
+	fmt.Prinln("Tamanho do meu Slice:", len(nomes) );
+	nomes = append(nomes, "Rubim")
+	fmt.Prinln("Tamanho do meu Slice:", len(nomes) );
+	fmt.Prinln("Capacidade do meu Slice:", cap(nomes) ); //A capacidade dobra... fica com o tamanho anterior ao APPEND "vezes" 2
+
+
+}
+
+func exibeNomesArray() {
+	nomes := [3]string{"Fabio", "Marina", "Bernado"}
+	fmt.Println(nomes)
+	fmt.Println("Array tipo: ", reflect.typeof(nomes))//Mostra um array com 4 itens.
+}
