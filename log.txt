@@ -1,0 +1,27 @@
+https://www.google.com.br- online: true
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+https://www.google.com.br- online: true
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+https://www.google.com.br- online: true
+https://www.alura.com.br- online: true
+https://www.caelum.com.br- online: true
+12/06/2022 09:34:28 - https://www.google.com.br- online: true
+12/06/2022 09:34:28 - https://www.alura.com.br- online: true
+12/06/2022 09:34:29 - https://www.caelum.com.br- online: true
+12/06/2022 09:34:34 - https://www.google.com.br- online: true
+12/06/2022 09:34:34 - https://www.alura.com.br- online: true
+12/06/2022 09:34:34 - https://www.caelum.com.br- online: true
+12/06/2022 09:34:39 - https://www.google.com.br- online: true
+12/06/2022 09:34:40 - https://www.alura.com.br- online: true
+12/06/2022 09:34:40 - https://www.caelum.com.br- online: true
+12/06/2022 09:40:27 - https://www.google.com.br- online: true
+12/06/2022 09:40:27 - https://www.alura.com.br- online: true
+12/06/2022 09:40:28 - https://www.caelum.com.br- online: true
+12/06/2022 09:40:33 - https://www.google.com.br- online: true
+12/06/2022 09:40:33 - https://www.alura.com.br- online: true
+12/06/2022 09:40:34 - https://www.caelum.com.br- online: true
+12/06/2022 09:40:39 - https://www.google.com.br- online: true
+12/06/2022 09:40:39 - https://www.alura.com.br- online: true
+12/06/2022 09:40:39 - https://www.caelum.com.br- online: true
